@@ -132,7 +132,7 @@ stQuestion GenerateQuestion(enOperationType OperationType, enQuestionsLevel Ques
 	Question.OperationType = OperationType;
 	
 	
-	switch (OperationType) {
+	switch (QuestionLevel) {
 	case enQuestionsLevel::Easy:
 		Question.Num1 = generateRandomNumber(1, 10);
 		Question.Num2 = generateRandomNumber(1, 10);
