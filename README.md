@@ -1,2 +1,1 @@
-# Second-Simple-Project
-Simple Math Game
+# Second Project :  Simple Math Game
