@@ -199,7 +199,7 @@ void AskAndCorrectQuestionsListAnswer(stQuiz& Quizz) {
 		Quizz.QuestionList[QuestionNum].PlayerAnswer = ReadQuestionAnswer();
 		CheckPlayerAnswer(Quizz, QuestionNum);
 	}
-	Quizz.isPass = (Quizz.RightAnswers >= Quizz.RightAnswers);
+	Quizz.isPass = (Quizz.RightAnswers >= Quizz.WrongAnswers);
 }
 
 string GetPassOrFail(bool isPass) {
